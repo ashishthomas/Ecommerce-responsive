@@ -3,7 +3,7 @@
 <div align="center">
   <br />
   <a href="#">
-    <img src="#" alt="E-commerce Website Banner">
+    <img src="./src/assets/Ecommerce-Responsive-Banner.png" alt="E-commerce Website Banner">
   </a>
   <br />
   <div>
