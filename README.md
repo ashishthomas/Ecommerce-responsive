@@ -64,7 +64,7 @@
   Smooth transitions and interactive UI elements
 
 - 🚀 **Easy Deployment**  
-  Ready to deploy on Vercel or any static hosting
+  Ready to deploy on Vercel, netlifty or any static hosting
 
 ---
 
