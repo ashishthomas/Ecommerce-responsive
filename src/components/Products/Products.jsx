@@ -60,9 +60,13 @@ const Products = () => {
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Products
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          <p
+            data-aos="fade-up"
+            className="text-xs text-gray-700 dark:text-gray-400"
+          >
+            Explore our curated collection of best-selling products, handpicked
+            for quality and style. Find the perfect addition to your wardrobe
+            and enjoy exclusive deals on top-rated items.
           </p>
         </div>
         {/* Body section */}
@@ -83,7 +87,9 @@ const Products = () => {
                 />
                 <div>
                   <h3 className="font-semibold">{data.title}</h3>
-                  <p className="text-sm text-gray-600">{data.color}</p>
+                  <p className="text-xs text-gray-700 dark:text-gray-400">
+                    {data.color}
+                  </p>
                   <div className="flex items-center gap-1">
                     <FaStar className="text-yellow-400" />
                     <span>{data.rating}</span>

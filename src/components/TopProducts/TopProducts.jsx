@@ -10,21 +10,21 @@ const ProductsData = [
     img: Img1,
     title: "Casual Wear",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Stay comfortable and stylish with our latest collection of casual wear, perfect for everyday outings and relaxed weekends.",
   },
   {
     id: 2,
     img: Img2,
     title: "Printed shirt",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Express your personality with our trendy printed shirts, designed to add a pop of color and fun to your wardrobe.",
   },
   {
     id: 3,
     img: Img3,
     title: "Women shirt",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Discover elegant and versatile women's shirts, crafted for both comfort and sophistication in any setting.",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
@@ -40,8 +40,9 @@ const TopProducts = ({ handleOrderPopup }) => {
             Best Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Discover our best products, highly rated by customers for their
+            quality and style. Upgrade your wardrobe with top picks from
+            TrendMart!
           </p>
         </div>
         {/* Body section */}

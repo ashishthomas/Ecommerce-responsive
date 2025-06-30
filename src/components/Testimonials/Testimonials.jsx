@@ -4,26 +4,26 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Aarav Sharma",
+    text: "Shopping at TrendMart was a fantastic experience! The products arrived quickly and the quality exceeded my expectations.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Priya Desai",
+    text: "I love the variety and deals on TrendMart. The customer support team was very helpful and responsive.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Rahul Mehta",
+    text: "TrendMart has become my go-to store for online shopping. The website is easy to use and the checkout process is smooth.",
     img: "https://picsum.photos/104/104",
   },
   {
-    id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    id: 4,
+    name: "Sneha Kapoor",
+    text: "Excellent service and great prices! I found everything I needed and will definitely shop here again.",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -78,9 +78,12 @@ const Testimonials = () => {
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Testimonials
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          <p
+            data-aos="fade-up"
+            className="text-xs text-gray-700  dark:text-gray-400"
+          >
+            Hear from our happy customers! Discover real stories and feedback
+            from people who love shopping with TrendMart.
           </p>
         </div>
 
@@ -102,8 +105,8 @@ const Testimonials = () => {
                   </div>
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
-                      <p className="text-xs text-gray-500">{data.text}</p>
-                      <h1 className="text-xl font-bold text-black/80 dark:text-light">
+                     <p className="text-xs text-gray-700 dark:text-gray-300">{data.text}</p>
+                      <h1 className="text-xl font-bold text-gray-900 dark:text-gray-100">
                         {data.name}
                       </h1>
                     </div>

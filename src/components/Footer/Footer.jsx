@@ -46,11 +46,13 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              TrendMart
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              TrendMart is your one-stop destination for the latest fashion
+              trends and quality products. We are committed to providing a
+              seamless shopping experience, exclusive deals, and top-notch
+              customer service for all your needs.
             </p>
           </div>
 
@@ -108,11 +110,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>Bangalore, Karnataka</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p>+91 8105124824</p>
                 </div>
               </div>
             </div>
